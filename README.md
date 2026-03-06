@@ -18,9 +18,8 @@ Host <随便起>
 ```
     
 2.编辑远程主机的~/.bashrc，把代理设置添加进去：
-
-# === SSH 反向隧道本地代理(默认开启) ===
 ```
+# === SSH 反向隧道本地代理(默认开启) ===
 proxy_on() {
   export HTTP_PROXY="http://127.0.0.1:7890"
   export HTTPS_PROXY="http://127.0.0.1:7890"
