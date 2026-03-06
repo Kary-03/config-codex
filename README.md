@@ -1,6 +1,7 @@
 # config-codex
 一、让远程服务器走本地代理
 1.配置本地的.ssh/config文件：
+
 '''
 Host <随便起>
     HostName <远程主机ip名>
